@@ -8,7 +8,7 @@ int secondNum = Int32.Parse(Console.ReadLine());
 
 switch (userOperator)
 {
-    case '=':
+    case '+':
         Addition(firstNum, secondNum);
             break;
     case '-':
